@@ -1,0 +1,38 @@
+main {
+  height: calc(100vh - 108px);
+  background-image: url("https://wallpapercave.com/wp/wp3800310.jpg");
+  background-color: #f6e652;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+header {
+  width: 100vw;
+  height: 108px;
+}
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+button {
+  font-size: 20px;
+}
+
+#results {
+  font-size: 18px;
+}
+
+#results > div {
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px;
+  border-color: black;
+  border: solid;
+  text-align: center;
+}
+
+div.w-100 {
+  border: none !important;
+}
